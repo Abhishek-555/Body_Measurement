@@ -47,3 +47,5 @@ When code runs, you will be shown points selected by our ***heuristic*** as to-b
 ###Output
 
 Following will be the output produced by the model
+
+![alt text](https://github.com/Abhishek-555/LYIT_Dissertation_Body_Measurement/blob/main/Outputofthemodel.png)
