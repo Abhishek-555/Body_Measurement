@@ -42,3 +42,8 @@ This image is capturing side-view of subject. This provide thickness of waist an
 Waist is modelled as an ***ellipse*** and measured analogous to finding ***perimeter of ellipse***. Hence ***appromation*** is mentioned.
 
 When code runs, you will be shown points selected by our ***heuristic*** as to-be shoulder/wrist. If suspicious/incorrect, you can ***explicitly*** select those points on image and pressing `esc` key thereafter.
+
+
+###Output
+
+Following will be the output produced by the model
