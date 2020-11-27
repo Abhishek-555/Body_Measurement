@@ -26,24 +26,18 @@ python code2.py -i1 ../Images/aman1.jpg -i2 ../Images/aman2.jpg -i3 ../Images/am
 
 ### Input Image1 
 
-This image is with the subject holding a ***checkered board*** in hands. This helps measure ***shoulder*** distance. Check the image below.
+This image is with the subject holding a ***checkered board*** in hands. This helps measure ***shoulder*** distance.
 
-![alt text](https://github.com/ankesh007/Body-Measurement-using-Computer-Vision/blob/master/Images/final_saket1.jpg)
-
-Checkered board is special. Its helps in ***calibration*** of camera image for ***3D measurements***. If you use any other chess-type board, measure the side length of ***unit square and*** change ***global ref_ht*** parameter in ***code2.py***.
+Checkered board is important as it helps in ***calibration*** of camera image for ***3D measurements***. If you use any other chess-type board, measure the side length of ***unit square and*** change ***global ref_ht*** parameter in ***code2.py***.
 
 ### Input Image2 
 
 This image is with the subject spreading out his hands. This helps in ***wrist-to-shoulder*** measurement, and provide width of waist's projection.
 
-![alt text](https://github.com/ankesh007/Body-Measurement-using-Computer-Vision/blob/master/Images/final_saket2.jpg)
 
 ### Input Image3 
 
 This image is capturing side-view of subject. This provide thickness of waist and helps complete ***waist*** measurement.
-
-![alt text](https://github.com/ankesh007/Body-Measurement-using-Computer-Vision/blob/master/Images/final_saket3.jpg)
-
 
 Waist is modelled as an ***ellipse*** and measured analogous to finding ***perimeter of ellipse***. Hence ***appromation*** is mentioned.
 
